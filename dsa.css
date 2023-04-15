@@ -104,6 +104,28 @@ nav ul{
         font-size: 0.76em;
     }
 }
+
+@media screen and (max-width:500px){
+    .box-content{
+        background-color: white;
+        padding: 30px 5px;
+        text-align: center;
+        width: 100%;
+        transition: 300ms all;
+        font-size: 0.85em;
+    }
+}
+@media screen and (max-width:320px){
+    .box-content{
+        background-color: white;
+        padding: 30px 5px;
+        text-align: center;
+        width: 100%;
+        transition: 300ms all;
+        font-size: 0.75em;
+    }
+}
+
 /* let's create the annimation wave */
 
 

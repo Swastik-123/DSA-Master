@@ -9,7 +9,9 @@ h1{
     text-align: center;
     color: white;
 }
-
+h1 p{
+    font-size: 1em;
+}
 
 tbody tr td a{
     color: blue;
@@ -61,17 +63,33 @@ tbody tr td a{
 
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:598px){
     h1 p{
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 }
-@media screen and (max-width:280px){
+@media screen and (max-width:236px){
+    h1 p{
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width:370px){
     .content-table{
-        width: 80%;
+        width: 70%;
         border-collapse: collapse;
         margin: 25px;
         font-size: .76em;
+        box-shadow: 0 0 10px silver;
+        transition: 300ms all;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:277px){
+    .content-table{
+        width: 60%;
+        border-collapse: collapse;
+        margin: 25px;
+        font-size: .56em;
         box-shadow: 0 0 10px silver;
         transition: 300ms all;
         box-sizing: border-box;
